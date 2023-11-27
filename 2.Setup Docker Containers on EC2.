@@ -1,0 +1,13 @@
+Create a Ec2 instance and connect ! 
+Note-( Use Amazon linux while making instance)
+
+Use following command to install ( Docker )
+
+sudo yum update -y
+sudo yum install -y docker
+sudo service docker start
+sudo docker pull nginx
+sudo docker run -d -p 80:80 nginx
+sudo docker images 
+
+// Done 
