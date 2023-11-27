@@ -1,0 +1,22 @@
+
+// Example 
+.-- Create a database named 'person'
+CREATE DATABASE  person;
+
+-- Switch to the 'person' database
+USE person;
+
+-- Create a table named 'person' with columns: name, age, gender, city, country
+CREATE TABLE  person (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    age INT,
+    gender VARCHAR(10),
+    city VARCHAR(255),
+    country VARCHAR(255)
+);
+
+-- Insert data for Chetan into the 'person' table
+INSERT INTO person (name, age, gender, city, country) VALUES ('mayank', 19, 'male', 'Pimpri', 'india');
+
+DROP DATABASE person;
