@@ -9,7 +9,7 @@ echo "Hello From $ (hostname -f)" | sudo tee /var/www/html/index.html
 
 sudo apt install stress -y
 
-sudo stress --cpu 8 --timeout 200
+sudo stress --cpu 8 --io 4 --timeout 200
 
 
 top / insights
