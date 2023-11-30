@@ -1,3 +1,6 @@
+
+Create to sec grp 1 for laod ,1 for lauch temp > crt target grp 1 , create load bal , create auto scaling .. command
+
 #!/bin/bash
 sudo su
 apt update -y
